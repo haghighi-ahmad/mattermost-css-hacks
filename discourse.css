@@ -9,12 +9,16 @@
 }
 
 /* change font-family and increase size for flagged users */
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://cdn.rawgit.com/rastikerdar/vazir-font/v24.1.0/dist/font-face.css');
+
+.app__body.font--open_sans {
+  font-family: 'Vazir', sans-serif;
+}
 
 [data-hack-font=true].app__body.font--open_sans {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Vazir', sans-serif;
 }
 
 [data-hack-font=true] .form-control, [data-hack-font=true] .post p {
-  font-size: 15px;
+  font-size: 16px;
 }
